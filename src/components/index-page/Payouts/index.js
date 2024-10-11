@@ -142,7 +142,7 @@ const Payouts = ({ t, payouts, priceData }) => {
           </Plx>
         </div>
       </div>
-      <div className="IndexPage__payouts__carousel-title-and-info-wrapper">
+      {/* <div className="IndexPage__payouts__carousel-title-and-info-wrapper">
         <div className="IndexPage__payouts__carousel-title-and-info">
           <h3 className="IndexPage__payouts__carousel-title-and-info__title">{t('landing.payouts.carousel.title')}</h3>
           <div className="IndexPage__payouts__carousel-title-and-info__info">
@@ -182,7 +182,7 @@ const Payouts = ({ t, payouts, priceData }) => {
             />
           ) : null}
         </div>
-      </section>
+      </section> */}
     </section>
   );
 };
