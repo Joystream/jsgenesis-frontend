@@ -13,10 +13,10 @@ import CreatorTokens from '../components/index-page/CreatorTokens';
 import JoystreamDAO from '../components/index-page/JoystreamDAO';
 // import AvailableActivities from '../components/index-page/AvailableActivities';
 import Ecosystem from '../components/index-page/Ecosystem';
-import Tokenomics from '../components/index-page/Tokenomics';
+// import Tokenomics from '../components/index-page/Tokenomics';
 import Video from '../components/index-page/Video';
 import Traction from '../components/index-page/Traction';
-import Upcoming from '../components/index-page/Upcoming';
+// import Upcoming from '../components/index-page/Upcoming';
 import Creators from '../components/index-page/Creators';
 import Dashboard from './dashboard';
 
@@ -57,7 +57,7 @@ const IndexPage = pageProps => {
 
       <CreatorTokens t={t} />
 
-      <Upcoming t={t} />
+      {/* <Upcoming t={t} /> */}
 
       <JoystreamDAO t={t} proposalsData={data?.carouselData.proposals} />
 
